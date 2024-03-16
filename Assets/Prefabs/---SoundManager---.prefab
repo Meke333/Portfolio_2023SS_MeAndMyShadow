@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3552112877756798877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9020460249367526466}
+  - component: {fileID: 6824640549165985326}
+  - component: {fileID: 3530306265215052073}
+  m_Layer: 0
+  m_Name: ---SoundManager---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9020460249367526466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552112877756798877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6824640549165985326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552112877756798877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236f337c1adc42e4c9dcb0ebda0236cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Instance: {fileID: 0}
+  music01_TitleScreen: {fileID: 8300000, guid: 2dd0351153da495479451a2c2d5ce61b, type: 3}
+  music02_KidRoom: {fileID: 8300000, guid: 0ce18ce70ea7a0b4ebc11b7e3e1fc093, type: 3}
+  music03_LivingRoom: {fileID: 8300000, guid: 3dbe4f70854e2174ea8dcb2d9ac95f5e, type: 3}
+  music04_KitchenRoom: {fileID: 8300000, guid: fa8b061f04aa79041bc174633b03b330, type: 3}
+  sfx_spawn: {fileID: 8300000, guid: 0644ed270cddb8647930a6d370190e5b, type: 3}
+  sfx_jump: {fileID: 8300000, guid: 89a9c482af7a0004985953314b81f0d0, type: 3}
+  sfx_land: {fileID: 8300000, guid: 3354726cbe50d8647856f907dc281b4a, type: 3}
+  sfx_death: {fileID: 8300000, guid: 44528d3781be16742bf8965fae3e5b85, type: 3}
+  sfxWoodBlockLanding:
+  - {fileID: 8300000, guid: 607f7a9b14387d044b4bcd1e69d54b63, type: 3}
+  - {fileID: 8300000, guid: c1b36f9a143d5c7488c1f4dab0dfeaf1, type: 3}
+  sfx_win1: {fileID: 8300000, guid: 4c1370bb88ccc7d47af03d3407e5d3ca, type: 3}
+--- !u!114 &3530306265215052073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552112877756798877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b25b346b0a5ea4b8ab744681c96af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSource: {fileID: 0}
