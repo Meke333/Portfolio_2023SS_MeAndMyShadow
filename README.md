@@ -30,10 +30,16 @@ There is a prototype video in 4) and a walkthrough video in 3).
 Download the latest build from the itch.io page from 1).
 
 
+#Roles:
+- Leonie Droege:    Vision Keeper, Texturing, Level Designer
+- Bruno Müller:     3D Asset Creator, Lighting, Sound Manager
+- Lorenz Müller:    Texturing, Animation, Quality Assurance
+
+
 #My Contribution:
 Roles in the project:
 - Game Programmer
-- Project Manager
+- Production Manager
 - Game Designer
 - Version Control Manager
 
